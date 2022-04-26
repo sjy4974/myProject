@@ -28,7 +28,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="33b5af5b-8ed1-4889-9819-24da5e4e12b1">
-      <console name="sjy" type="STANDARD" schema="information_schema" session="Main"><![CDATA[CREATE TABLE test(
+      <console name="sjy" type="STANDARD" schema="information_schema" session="Main">CREATE TABLE test(
 	id bigint(20) NOT NULL AUTO_INCREMENT,
 	content varchar(255) DEFAULT NULL,
 	PRIMARY KEY (id)
@@ -36,7 +36,7 @@
 
 insert into test(content) values ('테스트');
 
-select * from test;]]></console>
+select * from test;</console>
       <console name="springboot-webservice" type="STANDARD" schema="information_schema" session="Main" />
     </connection>
   </component>
