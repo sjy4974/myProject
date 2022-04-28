@@ -28,6 +28,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="cfc791da-58fb-4138-a53b-28b1b5662125">
+      <console name="sjy1" type="STANDARD" schema="information_schema" session="Main" />
       <console name="springboot-webservice" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -40,6 +41,7 @@
     <connection id="cfc791da-58fb-4138-a53b-28b1b5662125" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="cfc791da-58fb-4138-a53b-28b1b5662125" dataset="springboot_webservice.posts" active-filter-id="" />
     <filter-actions connection-id="cfc791da-58fb-4138-a53b-28b1b5662125" dataset="springboot_webservice.test" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
