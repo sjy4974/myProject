@@ -27,24 +27,18 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="33b5af5b-8ed1-4889-9819-24da5e4e12b1">
-      <console name="sjy" type="STANDARD" schema="information_schema" session="Main">CREATE TABLE test(
-	id bigint(20) NOT NULL AUTO_INCREMENT,
-	content varchar(255) DEFAULT NULL,
-	PRIMARY KEY (id)
-) ENGINE=InnoDB;
-
-insert into test(content) values ('테스트');
-
-select * from test;</console>
+    <connection id="cfc791da-58fb-4138-a53b-28b1b5662125">
+      <console name="sjy1" type="STANDARD" schema="information_schema" session="Main" />
       <console name="springboot-webservice" type="STANDARD" schema="information_schema" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="cfc791da-58fb-4138-a53b-28b1b5662125" object-ref="consoles/sjy1" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="33b5af5b-8ed1-4889-9819-24da5e4e12b1" />
+    <connection id="cfc791da-58fb-4138-a53b-28b1b5662125" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -75,19 +69,19 @@ select * from test;</console>
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="33b5af5b-8ed1-4889-9819-24da5e4e12b1" active="true" signed="false">
+      <connection id="cfc791da-58fb-4138-a53b-28b1b5662125" active="true" signed="false">
         <database>
           <name value="springboot-webservice" />
-          <description value="springboot-webservice" />
+          <description value="sjy" />
           <database-type value="GENERIC" />
           <config-type value="CUSTOM" />
           <database-version value="10.6" />
           <driver-source value="EXTERNAL" />
           <driver-library value="D:\mariadb\mariadb-java-client-2.7.3.jar" />
           <driver value="org.mariadb.jdbc.Driver" />
-          <url value="jdbc:mariadb://springboot-webservice.clbkbyew4wnd.us-west-1.rds.amazonaws.com:3306" />
+          <url value="jdbc:mariadb://springboot-webservice.cpeocgiqokma.ap-northeast-2.rds.amazonaws.com:3306" />
           <type value="USER_PASSWORD" />
-          <user value="sjy4974" />
+          <user value="sjy" />
           <deprecated-pwd value="dzE1MzQyNjk=" />
         </database>
         <properties>
